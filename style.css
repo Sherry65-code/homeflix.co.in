@@ -1,0 +1,114 @@
+body{
+background-image: url('images/wal.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+}
+#header{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+    background-color: rgba(29, 29, 29, 0);
+    color: aliceblue;
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    z-index: 10;
+}
+#main{
+    background-color: rgba(202, 210, 248, 0);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    padding-block-start: 80px;   
+    padding-inline-start: 10px;
+    padding-inline-end: 10px;
+}
+.search{
+    background-color: #1a1a1a00;
+    border: 1px rgba(255, 255, 255, 0.13) solid;
+    padding: 5px 10px;
+    border-radius: 2px;
+    float: right;
+    outline: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: all ease-in-out 0.4s;
+    color: aliceblue;
+}
+.search:hover{
+    border-color: white;
+}
+.video{
+    background-color: rgba(51, 51, 51, 0.692);
+    color: rgba(255, 255, 255, 0);
+    border: none;
+    padding: 160px 10px;
+    border-radius: 8px;
+    background-size: cover;
+    background-position: center;
+    font-size: 20px;
+    width: 200px;
+    transition: all ease-in-out 0.5s;
+    background-size: 700px;
+}
+.video:hover{
+    color: white;
+    background-size: 400%;
+    text-shadow: black 1px 1px 1px;
+
+}
+.vid{
+    width: 100%;
+    border-radius: 8px;
+    max-width: 950px;
+}
+.vidtitle{
+    color: thistle;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 24px;
+}
+.goback{
+    padding: 10px 10px;
+    position: absolute;
+}
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+#myUL{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.801);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px 10px;
+    right: 20px;
+    top: 60px;
+    z-index: 20;
+    border-radius: 8px;
+}
+li{
+    background-color: white;
+
+padding: 5px 5px;
+border-radius: 8px;
+transition: all  ease-in-out 0.3s;
+cursor: pointer;
+}
+li:hover{
+    filter: brightness(0.7);
+}
+#darkspace{
+    background-color: rgba(0, 0, 0, 0.021);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 15;
+    display: none;
+}

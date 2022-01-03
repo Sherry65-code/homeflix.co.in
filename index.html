@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homeflix | Official</title>
+</head>
+<body>
+    <div id="header">
+ <a href="">  HOMEFLIX</a>  <input onclick="search_unhide()" class="search" onkeyup="myFunction()" type="text" placeholder="Search with me" id="myInput">
+    </div>
+    <div id="main">
+<button class="video" onclick="botdbs()" style="background-image: url('https://sherry65-code.github.io/homeflix.in/images/MISSIO%20-%20Bottom%20to%20deep%20Sea.png');">
+    <div class="title">MISSIO - Bottom of the Deep Blue Sea</div>
+</button>
+<button class="video" onclick="khvm()" style="background-image: url('https://sherry65-code.github.io/homeflix.in/images/kaise%20hua.png');">
+    <div class="title">Kaise Hua - Vishal Mishra</div>
+</button>
+<button class="video" onclick="wnta()" style="background-image: url('https://1.bp.blogspot.com/-CGIwPwa7Hro/X27ZfpwdLJI/AAAAAAAAEFo/A-GxkPGgww4VLfn0L0pyy4DSJcql6IYQgCLcBGAsYHQ/s739/images%2B%252821%2529.jpeg');">
+    <div class="title">We Dont talk Anymore - Charlie</div>
+</button>
+    </div>
+    <!-- Search -->
+    <div id="darkspace" onclick="search_hide()">
+    <ul id="myUL">
+        <li onclick="botdbs()">MISSIO - Bottom of the deep blue sea</li>
+        <li onclick="khvm()">Kaise Hua - Vishal Mishra</li>
+        <li onclick="wnta()">We Dont talk Anymore - Charlie Puth</li>
+      </ul>
+      </div>
+<!-- search end -->
+    <script src="./script.js"></script>
+</body>
+</html>
